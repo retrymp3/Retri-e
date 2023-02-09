@@ -2,4 +2,4 @@
 
 Shopping application written in java
 
-Impliments Recycler View with custom array adaptor
+Impliment recycler view with custom array adaptor, explicit and implicit intents.
