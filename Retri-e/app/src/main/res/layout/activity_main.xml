@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B377A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="46dp"
+        android:text="Welcome To Retri-e"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="89dp"
+        android:backgroundTint="#3D53CC"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#1A92F1"
+        android:textColorHint="#AC0909" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="54dp"
+        android:backgroundTint="#3D53CC"
+        android:text="Login"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

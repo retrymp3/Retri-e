@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2B377A  "
+    android:orientation="horizontal">
+
+    <!--For image src we have used ic_launcher
+        and for text "batsmanName" they are used
+        only for reference how it will looks"-->
+    <ImageView
+        android:id="@+id/itemImg"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:clickable="false"
+        android:padding="16dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutclick"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1B2C88  "
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="false"
+            android:gravity="right"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
